@@ -1,0 +1,243 @@
+nav{
+    width: 100%;
+    background-color: green;
+    height: 150px;
+    
+}
+nav ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+nav ul li{
+    list-style-type: none;
+    margin-left: 60px;
+    margin-top: 28px;
+    font-size: 18px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: 0.4s ease;
+
+}
+nav ul li a:hover{
+    color: darkblue;
+    text-decoration: underline;
+}
+nav ul li span{
+    color: darkblue;
+    text-decoration: underline;
+}
+.contact-form h2{
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    font-size: 36px;
+    color: red;
+
+}
+.contact-form form{
+    max-width: 50em;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3em;
+
+}
+.contact-form form .input-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.contact-form form .input-box input,
+.contact-form form textarea{
+    width: 100%;
+    padding: 1.5em;
+    font-size: 18px;
+    color: black;
+    background: rgb(241, 241, 241);
+    border-radius: .8rem;
+    margin: 1rem 0;
+    resize: none;
+}
+label{
+    color: blue;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.button{
+    padding: 15px 28px;
+    background-color: black;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+    
+}
+.button:hover{
+    background-color: white;
+    color: black;
+    border: 2px black;
+}
+.footer1{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+    background-color: black;
+  }
+  .footer1{
+   width: 100%;
+   padding: 70px 30px 20px;
+  
+  }
+  .social{
+      display: flex;
+      justify-content: center;
+  
+  }
+  .social a{
+      text-decoration: none;
+      padding: 10px;
+      background-color: white;
+      margin: 10px;
+      border-radius: 50%;
+    
+  }
+  .social a i{
+      font-size: 2em;
+      color: black;
+      opacity: 0.9;
+  
+  }
+  .social a:hover{
+      background-color: orangered;
+      transition: o.5s;
+      transform: scale(1.1);
+  
+  }
+  .social a:hover i{
+      color: white;
+      transition: o.3s;
+      transform: scale(1.1);
+  }
+  .footerbottom p{
+      color: black;
+      background-color: white;
+      font-weight: 600;
+      font-size: 500;
+      text-align: center;
+      height: 50px;
+     padding-top: 20px;
+     width: 100%;
+     bottom: 0;
+     left: 0; 
+  
+  }
+  .development{
+    color: white;
+    font-size:18px;
+    text-align: center;
+    width: 1000px;
+    margin-top: 50px;
+    margin-left: 70px;
+
+  }
+  .Agriculture{
+    font-size: 42px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: green;
+    text-align: center;
+
+  }
+ .Traders{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: brown;
+    text-align: center;
+ }
+ #Beans{
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gold;
+    text-align: center;
+
+ }
+ #Climate{
+    font-size:23px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+    text-align: center;
+ }
+ #Nutrition{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(79, 15, 139);
+    text-align: center;
+ }
+ #Agri{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: green;
+    text-align: center;
+
+ }
+ #Family{
+    font-size:25px ;
+    font-family: 'Times New Roman', Times, serif;
+    color: deeppink;
+    text-align: center;
+ }
+ #Government{
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: dodgerblue;
+    text-align: center;
+ }
+ #Safety{
+    font-size: 27px;
+    font-family: 'Times New Roman', Times, serif;
+    color:red;
+    text-align: center;
+ }
+ .Activity{
+    font-size: 37px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(25, 182, 11);
+    text-align: center;
+ }
+ .Updates{
+    font-size: 32px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: chartreuse;
+    text-align: center;
+ }
+ .cards{
+    margin-top: 40px;
+    margin-bottom: 40px;
+ }
+ .card {
+    margin-top: 20px;
+    margin-bottom: 25px;
+ }
+.EX{
+    font-size: 20PX;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkgreen;
+    text-align: center;
+}
+/* .RE{
+    font-size: 20PX;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: green;
+    text-align: center
+
+} */
